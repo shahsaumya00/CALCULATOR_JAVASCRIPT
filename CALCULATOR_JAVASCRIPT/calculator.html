@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<title>
+			calculator
+		</title>
+
+		<link rel="stylesheet" type="text/css" href="q1.css">
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td><button class="button" id="c1" onclick="displayc();">C</button></td>
+				<td colspan="3" id="res"></td>
+			</tr>
+			<tr>
+                                <td><button class="button" onclick="display7();">7</button></td>
+				<td><button class="button" onclick="display8();">8</button></td>
+				<td><button class="button" onclick="display9();">9</button></td>
+				<td><button class="button" onclick="displayp();">+</button></td>
+                        </tr>
+
+			<tr>
+                                <td><button class="button" onclick="display4();">4</button></td>
+                                <td><button class="button" onclick="display5();">5</button></td>
+                                <td><button class="button" onclick="display6();">6</button></td>
+                                <td><button class="button" onclick="displaym();">-</button></td>
+                        </tr>
+
+			<tr>
+                                <td><button class="button" onclick="display1();">1</button></td>
+                                <td><button class="button" onclick="display2();">2</button></td>
+                                <td><button class="button" onclick="display3();">3</button></td>
+                                <td><button class="button" onclick="displayd();">/</button></td>
+                        </tr>
+
+			<tr>
+                                <td><button class="button" onclick="display0();">0</button></td>
+                                <td><button class="button" onclick="displaypo();">.</button></td>
+                                <td><button class="button" id="eq" onclick="displayans();">=</button></td>
+                                <td><button class="button" onclick="displaymu();">*</button></td>
+                        </tr>
+
+		</table>
+
+		<script src="q1_m.js"></script>
+	</body>
+</html>
